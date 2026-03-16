@@ -655,6 +655,40 @@ font-size:36px;
 font-size:36px;
 }
 }
+@media (max-width:768px){
+
+/* CONTACT SECTION */
+.contact{
+padding:80px 20px;
+}
+
+.contact-container{
+grid-template-columns:1fr;
+gap:40px;
+}
+
+.contact-info{
+text-align:center;
+}
+
+.info-card{
+flex-direction:column;
+align-items:center;
+text-align:center;
+gap:10px;
+}
+.icon{
+margin-bottom:8px;
+}
+.contact-form input,
+.contact-form textarea{
+width:100%;
+font-size:15px;
+}
+.send-btn{
+width:100%;
+}
+}
 body{
 overflow-x:hidden;
 }
