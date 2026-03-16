@@ -21,12 +21,17 @@ radial-gradient(1px 1px at 400px 150px, white, transparent);
 background-repeat:repeat;
 background-size:400px 200px;
 }
+img{
+max-width:100%;
+height:auto;
+}
 /* NAVBAR */
 .navbar{
 display:flex;
 justify-content:space-between;
 align-items:center;
-padding:20px 80px;
+padding:20px 8%;
+flex-wrap:wrap;
 }
 .logo{
 color:#baf7ec;
@@ -574,18 +579,82 @@ transition:0.3s;
 .btn:hover{
 transform:scale(1.05);
 }
+/* ================= MOBILE ================= */
 @media (max-width:768px){
+/* NAVBAR */
+.navbar{
+flex-direction:column;
+gap:15px;
+padding:20px;
+}
+.nav-links{
+flex-direction:column;
+align-items:center;
+gap:15px;
+}
+/* HOME */
+.home{
+height:auto;
+padding:120px 20px;
+}
+.name{
+font-size:42px;
+}
+.role{
+font-size:20px;
+}
+.hero-buttons{
+flex-direction:column;
+gap:15px;
+}
+/* ABOUT */
 .about-container{
 grid-template-columns:1fr;
 text-align:center;
+gap:40px;
 }
+.about-image img{
+width:250px;
+}
+/* EDUCATION */
+.timeline{
+padding-left:20px;
+}
+/* PROJECTS */
 .project-container{
 grid-template-columns:1fr;
 }
+/* SKILLS */
 .skills-container{
 grid-template-columns:1fr 1fr;
 }
+/* CONTACT */
 .contact-container{
 grid-template-columns:1fr;
 }
+/* SECTION SPACING */
+section{
+padding:70px 20px;
+}
+}
+/* SMALL PHONES */
+@media (max-width:480px){
+.name{
+font-size:34px;
+}
+.role{
+font-size:18px;
+}
+.skills-container{
+grid-template-columns:1fr;
+}
+.section-title{
+font-size:36px;
+}
+.about-title{
+font-size:36px;
+}
+}
+body{
+overflow-x:hidden;
 }
