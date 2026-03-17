@@ -55,13 +55,19 @@ display:flex;
 align-items:center;
 justify-content:center;
 text-align:center;
+padding:0 20px;
+}
+.home-content{
+max-width:900px;
+margin:auto;
+width:100%;
 }
 .intro{
 font-size:22px;
 margin-bottom:10px;
 }
 .name{
-font-size:80px;
+font-size:clamp(36px, 6vw, 80px);
 color:#baf7ec;
 }
 .role{
