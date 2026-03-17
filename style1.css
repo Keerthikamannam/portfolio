@@ -210,6 +210,20 @@ background:#9fe9dc;
 color:#cbd5e1;
 margin-bottom:20px;
 }
+.availability-section{
+display:flex;
+flex-direction:column;
+align-items:center;   /* centers everything */
+justify-content:center;
+margin-top:20px;
+}
+
+/* TEXT */
+.availability{
+text-align:center;
+margin-bottom:15px;
+font-weight:600;
+}
 /* SOCIAL ICONS */
 .social-icons{
 display:flex;
