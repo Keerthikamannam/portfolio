@@ -207,7 +207,10 @@ margin-bottom:20px;
 /* SOCIAL ICONS */
 .social-icons{
 display:flex;
+justify-content:center;  
+align-items:center;  
 gap:18px;
+flex-wrap:wrap; 
 }
 .social-icons a{
 color:#baf7ec;
@@ -615,6 +618,10 @@ gap:40px;
 }
 .about-image img{
 width:250px;
+}
+.social-icons{
+justify-content:center;
+gap:15px;
 }
 /* EDUCATION */
 .timeline{
