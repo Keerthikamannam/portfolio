@@ -33,10 +33,11 @@ It allows visitors to provide their details and get in touch with me.
 3. Open the folder
 ## How to Run the Project
 Click the live link to view the website online  :https://keerthikamannam.github.io/portfolio/
+
 OR
-1.Open the folder
-2.Double-click on index.html
-3.The website will open in your browser
+1. Open the folder
+2. Double-click on index.html
+3. The website will open in your browser
 ## Footer
 The footer section contains basic information and closes the webpage with a clean design.
 
